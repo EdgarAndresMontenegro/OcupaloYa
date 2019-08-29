@@ -100,12 +100,12 @@ require_once RUTA_RESOURCES."/Templates/header.php";
 <div class="container">
     <div class="row">
         <div class="col-8">
-            <img src="<?php echo RUTA_IMG;?>/gal-1.jpg" class="img-fluid">
+            <img src="<?php echo RUTA_IMG;?>/inmuebles/45-16-business-computer-connection-2265488.jpg" class="img-fluid">
         </div>
         <div class="col-4">
             <div class="row justify-content-between d-flex">
                 <div class="col-11">
-                    <h1 class="font-weight-bold">Descripcion del producto</h1>
+                    <h1 class="font-weight-bold">Titulo del producto</h1>
                 </div>
                 <div class="col-1 d-flex align-items-center">
                     <i class="far fa-heart"></i>
@@ -119,12 +119,23 @@ require_once RUTA_RESOURCES."/Templates/header.php";
 		        </div>
             	<p>30 opiniones</p>
             </div>
-            <div class="row">
-                <h2>
-			        <strong>$12000000</strong><sup><span class="green-text">-20%</span></sup>
-			     </h2>
+            <div class="px-3">
+                <h4><strike><strong>$ 12000000</strong></strike> <span class="green-text">-20% off</span></h4>
+                <h2><strong>$ 8000000</strong></h2>
+                
+
+                <h6 class="blue-text pt-3">Telefonos: (+37)6333333, 3153352227</h6>
+				<div class="text-center pt-4">
+					<a href="" class="btn btn-blue btn-block">Me interesa</a>
+				</div>
             </div>
         </div>
+    </div>
+    <div class="container my-5">
+    	<h1 class="font-weight-bold pt-5">Descripcion</h1>
+    	<p>
+    		Aqui se anota toda la descrcion y las caracteristicas del producto.
+    	</p>
     </div>
 </div>
 <?php require_once RUTA_RESOURCES."/Templates/footer.php"; ?>
