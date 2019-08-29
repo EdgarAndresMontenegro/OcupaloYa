@@ -1,0 +1,5 @@
+/* estilos para el loader */
+.loading_page{ background: linear-gradient( 140deg, orange, red, purple) !important; background-size: 200% 400% !important; animation: g-back 5s ease infinite; display: -webkit-flex; -ms-align-items: center; align-items: center; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; justify-content: center; height: 100vh; position: fixed; z-index: 99999; width: 100%; }
+.loading_page img{ height: auto; position: absolute; bottom: 50px; width: 250px; }
+.loading_page .loader-content{ color: white; text-align: center; }
+.loading_page .loader-content p{ margin-top: 10px; }

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Arrendatario
+comment0.text=\r\n\ La\ clase\ Arrendatario\ se\ encarga\ de\ definir\ las\ funciones\ y\ precisar\r\n\ el\ rango\ de\ usabilidad\ del\ inquilino,\ para\ que\ pueda\ buscar\ y\ darse\ a\ conocer\ en\ \r\n\ la\ aplicaci\u00F3n.\r\n\ \r\n\ @author\ (Edmonblack&&Cali)\ \r\n\ \r\n
+comment1.params=nombre\ contrase\u00F1a\ correo\ telefono\ genero
+comment1.target=Arrendatario(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ por\ objetos\ de\ la\ clase\ Arrendatario\r\n\ aqu\u00ED\ se\ inicializan\ las\ variables\ heredadas\ de\ usuario\r\n
+comment2.params=a\ tipo
+comment2.target=void\ buscarPorTipo(Arrendador,\ java.lang.String)
+comment2.text=\r\n\ El\ Arrendatario\ consulta\ en\ base\ de\ datos\ los\ el\ cupo\ q\ quiera\ ver\ de\ un\ arrenadador\ por\ su\ tipo\r\n
+comment3.params=a
+comment3.target=void\ buscarTodosLosCupos(Arrendador)
+comment3.text=\r\nBusca\ los\ inmuebles\ de\ la\ clase\ Arrendador,\ ya\ publicados\ \r\n
+comment4.params=a\ barrio
+comment4.target=void\ buscarPorBarrio(Arrendador,\ java.lang.String)
+comment4.text=\r\nBusca\ los\ inmuebles\ por\ el\ filtro\ de\ barrios,\ para\ que\ la\r\nbusqueda\ sea\ mas\ limitada\r\n
+comment5.params=a\ comentario
+comment5.target=void\ ponerComentario(Arrendador,\ java.lang.String)
+comment5.text=\r\nEl\ arrendatario\ puede\ poner\ un\ comentario\ de\ como\ fue\ su\ experiencia\r\ncon\ el\ arrendador\r\n
+comment6.params=a\ comentario
+comment6.target=void\ eliminarComentario(Arrendador,\ java.lang.String)
+comment6.text=\r\nDel\ mismo\ modo,\ el\ usuario\ puede\ eliminar\ comentarios\ ya\ hechos\ \r\n
+comment7.params=
+comment7.target=java.util.HashMap\ getComentarios()
+comment7.text=\r\nbusca\ todos\ los\ comentarios\ realizados\ y\ los\ retorna\ \r\n
+numComments=8

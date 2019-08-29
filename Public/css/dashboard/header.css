@@ -1,0 +1,36 @@
+/* importamos el diseño de las cards flotantes de las opciones */
+@import './icons.css';
+/* importamos el diseño de las cards flotantes de las opciones */
+@import './cards.css';
+
+/* estilos generales de la cabecera para el flex-box */
+header, .header-title, .header-navbar .header-navbar-second, .header-navbar .card-options.card-options-comments ul li.message a{ -ms-align-items: center; align-items: center; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; }
+/* estilos para la cabecera superior */
+header{ color: #fff; min-height: 70px; justify-content: space-between; width: 100%; }
+/* estilos para el contenedor de los vinculos de la cabecera */
+.header-navbar{ position: relative; width: 100%; }
+/* contenedor del menu principal */
+.header-navbar-primary{ display: none; width: 210%; }
+/* contenedor de los links del menu principal cuando tengan efectos los li */
+.header-navbar-primary ul li.active a, .header-navbar-primary ul li:hover a, .header-navbar-primary ul li:active a, .header-navbar-primary ul li:focus a{ border-bottom: 3px solid #fff; }
+/* contenedor de los links del menu principal */
+.header-navbar-primary ul li a{ -ms-align-items: center; align-items: center; background-color: transparent; border-bottom: 3px solid transparent; color: #fff; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; padding: 10px; display: flex; width: 100%; }
+
+
+@media( min-width: 999px )
+{
+	/* estilos para el titulo de la cabecera */
+	.header-title{ display: none; }
+	/* estilos para el contenedor de los vinculos de la cabecera cuando le den clic en el icono de las barra */
+	.header-navbar{ position: relative; }
+	/* estilos para el menu principal*/
+	.navbar-primary{ display: none; }
+	/* contenedor del menu principal */
+	.header-navbar-primary{ display: block !important; height: 70px; padding: 0; width: 100%; }
+	/* contenedor del ul del menu principal */
+	.header-navbar-primary ul{ -ms-align-items: center; align-items: center; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; height: 70px; margin-bottom: 0; }
+	/* contenedor de los li del menu principal */
+	.header-navbar-primary ul li{ height: 70px; padding: 0; margin: 0; }
+	/* contenedor de los links del menu principal */
+	.header-navbar-primary ul li a{ height: 70px; }
+}

@@ -1,0 +1,11 @@
+/* VISTA ./WELCOME.php */
+.content-profiles{ background-image: url(../../img/welcome/banner-profiles.jpg); background-size: cover;	background-attachment: fixed; }
+.list-group-item{ background-color: transparent !important; border: none; color: #fff; }
+
+.controls-slider-afiliados{ position: absolute !important; height: 100%; width: 100%; }
+.controls-slider-afiliados .row{ height: 100%; }
+
+@media( min-width: 768px )
+{
+	.text-information{ height: 10vh; line-height: 10vh; }
+}

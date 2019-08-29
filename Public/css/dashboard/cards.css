@@ -1,0 +1,58 @@
+/* estilos para las cards flotantes con opciones */
+.header-navbar .card-options{ background: #fff; border: 1px solid #ccc; border-radius: 0 0 3px 3px; -moz-box-shadow: 1px 2px 3px #999; -webkit-box-shadow: 1px 2px 3px #999; box-shadow: 1px 2px 3px #999; color: #777; display: none; line-height: 20px; max-height: 300px; overflow-x: hidden; overflow-y: auto; position: absolute; right: 0; width: 250px; z-index: 9999; }
+/* estilos para las cards flotantes con opciones del usuario */
+.header-navbar .card-options.card-options-user{ width: 200px; }
+/* estilos para la lista de las cards flotantes con opciones */
+.header-navbar .card-options ul{ list-style: none; margin: 0; padding: 4px 0; width: 100%; }
+/* estilos para el title de las cards flotantes con opciones */
+.header-navbar .card-options.card-options-notifications ul li, .header-navbar .card-options.card-options-comments ul li{ border-bottom: .5px solid #ddd; }
+.header-navbar .card-options.card-options-notifications ul li:last-child, .header-navbar .card-options.card-options-comments ul li:last-child{ border-bottom: 0; }
+/* estilos para el title de las cards flotantes con opciones */
+.header-navbar .card-options ul li.title-card{ border-bottom: 0; color: #666; display: list-item; line-height: 50px; height: 50px; padding: 0 15px; position: relative; text-align: -webkit-match-parent; text-align: left; width: 100%; }
+/* estilos para el badge de el title de las cards flotantes con opciones */
+.header-navbar .card-options ul li.title-card .badge{ position: absolute; right: 15px; top: 15px; }
+/* estilos para los items de la lista de las cards flotantes con opciones del usuario */
+.header-navbar .card-options ul li.separator{ border: .5px solid #ddd; margin: 3px 0; padding: 0px; min-height: 0px !important; width: 100%; }
+/* estilos para los items de la lista de las cards flotantes con opciones */
+.header-navbar .card-options ul li{ display: list-item; min-height: 40px; padding: 4px; text-align: -webkit-match-parent; width: 100%; }
+/* estilos para los vinculos de los items de la lista de las cards flotantes con opciones */
+.header-navbar .card-options ul li a{ -ms-align-items: center; align-items: center; border-radius: 3px; color: #777; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; font-size: 14px; height: 100%; min-height: 40px; overflow: hidden; padding: 0 10px; width: 100%; white-space: nowrap; }
+.header-navbar .card-options ul li a:hover{ background: #E4E4E4; color: #333; }
+/* estilos para los vinculos de los items de la lista de las cards flotantes con opciones */
+.header-navbar .card-options ul li a i{ font-size: 13px; margin-right: 14px; }
+/* estilos para los items de la lista de mensajes de las cards flotantes con opciones */
+.header-navbar .card-options.card-options-comments ul li.message{ height: 60px; }
+/* estilos para el contenedor las imagenes los items de la lista de mensajes de las cards flotantes con opciones */
+.header-navbar .card-options.card-options-comments ul li.message a .message-img{ width: 50px; }
+/* estilos para las imagenes los items de la lista de mensajes de las cards flotantes con opciones */
+.header-navbar .card-options.card-options-comments ul li.message a .message-img img{ background: #e5e5e5; border-radius: 50%; height: 40px; width: 40px; }
+/* estilos para el contenedor del mensaje de los items de la lista de mensajes de las cards flotantes con opciones */
+.header-navbar .card-options.card-options-comments ul li.message a .message-content{ margin-left: 5px; position: relative; width: 190px; }
+/* estilos de los textos del contenedor del mensaje de los items de la lista de mensajes de las cards flotantes con opciones */
+.header-navbar .card-options.card-options-comments ul li.message a .message-content h6, .header-navbar .card-options.card-options-comments ul li.message a .message-content p{ margin: 0; padding: 0 5px; position: relative; line-height: 25px; height: 25px; text-align: left; width: 100%; }
+/* estilos de la cabecera del texto del contenedor del mensaje de los items de la lista de mensajes de las cards flotantes con opciones */
+.header-navbar .card-options.card-options-comments ul li.message a .message-content h6{ display: list-item; font-size: 14px; font-weight: bold;  }
+/* estilos del nombre de usuario del contenedor del mensaje de los items de la lista de mensajes de las cards flotantes con opciones */
+.header-navbar .card-options.card-options-comments ul li.message a .message-content h6 span{ display: block; overflow: hidden; white-space: nowrap; width: 140px; }
+/* estilos de la hora de envio del contenedor del mensaje de los items de la lista de mensajes de las cards flotantes con opciones */
+.header-navbar .card-options.card-options-comments ul li.message a .message-content h6 small{ overflow: hidden; position: absolute !important; right: 5px; text-align: right; top: 0; white-space: nowrap; width: 50px; }
+
+
+@media( min-width: 575px )
+{
+	/* estilos para las cards flotantes con opciones */
+	.header-navbar .card-options{ width: 350px; }
+	/* estilos para el contenedor del mensaje de los items de la lista de mensajes de las cards flotantes con opciones */
+	.header-navbar .card-options.card-options-comments ul li.message a .message-content{ width: 340px; }
+	/* estilos del nombre de usuario del contenedor del mensaje de los items de la lista de mensajes de las cards flotantes con opciones */
+	.header-navbar .card-options.card-options-comments ul li.message a .message-content h6 span{ width: 220px; }
+}
+
+
+@media( min-width: 768px )
+{
+	/* estilos para las cards flotantes con opciones */
+	.header-navbar .card-options{ width: 400px; }
+	/* estilos del nombre de usuario del contenedor del mensaje de los items de la lista de mensajes de las cards flotantes con opciones */
+	.header-navbar .card-options.card-options-comments ul li.message a .message-content h6 span{ width: 260px; }
+}

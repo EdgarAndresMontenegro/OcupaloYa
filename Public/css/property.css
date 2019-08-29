@@ -1,0 +1,53 @@
+/* estilos base de la tarjeta de un inmueble */
+/* estilos del contenedor*/
+.card-property{ background-color: white; border: 1px solid #eee; min-height: 10px; width: 100%; }
+/* estilos del contenedor de la imagen */
+.card-property .image-property{ background-color: #eee; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; justify-content: center; height: auto; height: 300px; overflow: hidden; position: relative; }
+/* estilos de la imagen*/
+.card-property .image-property img{ height: 100%; width: auto; }
+/* estilos del texto de tipo de contrato */
+.card-property .image-property .text-image-property{ background: rgba(94,94,94,0.48);/* Old Browsers */background: -moz-linear-gradient(left, rgba(94,94,94,0.48) 0%, rgba(87,87,87,0.48) 37%, rgba(84,84,84,0.48) 40%, rgba(54,54,54,0.79) 76%, rgba(23,23,23,1) 100%); /* FF3.6+ */ background: -webkit-gradient(left top, right top, color-stop(0%, rgba(94,94,94,0.48)), color-stop(37%, rgba(87,87,87,0.48)), color-stop(40%, rgba(84,84,84,0.48)), color-stop(76%, rgba(54,54,54,0.79)), color-stop(100%, rgba(23,23,23,1)));/* Chrome, Safari4+ */ background: -webkit-linear-gradient(left, rgba(94,94,94,0.48) 0%, rgba(87,87,87,0.48) 37%, rgba(84,84,84,0.48) 40%, rgba(54,54,54,0.79) 76%, rgba(23,23,23,1) 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(94,94,94,0.48) 0%, rgba(87,87,87,0.48) 37%, rgba(84,84,84,0.48) 40%, rgba(54,54,54,0.79) 76%, rgba(23,23,23,1) 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(94,94,94,0.48) 0%, rgba(87,87,87,0.48) 37%, rgba(84,84,84,0.48) 40%, rgba(54,54,54,0.79) 76%, rgba(23,23,23,1) 100%); /* IE 10+ */ background: linear-gradient(to right, rgba(94,94,94,0.48) 0%, rgba(87,87,87,0.48) 37%, rgba(84,84,84,0.48) 40%, rgba(54,54,54,0.79) 76%, rgba(23,23,23,1) 100%);/* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#171717', GradientType=1 );/* IE6-9 */ bottom: 0; color: #eee; padding: 7px; position: absolute; width: 100%; text-align: right; }
+/* estilos del contenedor de la descripción */
+.card-property .description-property{ padding: 10px; }
+/* estilos del titulo del inmueble */
+.card-property .description-property strong{ color: #777; display: block; font-weight: bold; }
+/* estilos de las caracteristicas del inmueble*/
+.card-property .description-property .features-property{ color: #999; font-size: 16px; }
+/* estilos del pie de la tarjeta */
+.card-property .footer-property{ display: block; width: 100%; }
+/* estilos del contenedor del precio de la tarjeta */
+.card-property .footer-property .col-7{ color: #999; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-weight: bold; font-size: 17px; }
+/* estilos del contenedor de opciones de la tarjeta */
+.card-property .footer-property .col-5{ border-left: 1px solid #ddd; }
+/* estilo de los links o acciones */
+.card-property .footer-property .col-5 a{ color: #999; }
+/* estilo de los links o acciones al hacer hover */
+.card-property .footer-property .col-5 a:hover, .card-property .footer-property .col-5 a:focus, .card-property .footer-property .col-5 a:active, .card-property .footer-property .col-5 a.active, .card-property.highlight .footer-property .col-5 a:hover, .card-property.highlight .footer-property .col-5 a:focus, .card-property.highlight .footer-property .col-5 a:active, .card-property.highlight .footer-property .col-5 a.active{ color: #1976d2; }
+
+
+
+/* estilos de la tarjeta a destacar de un inmueble */
+/* estilos del contenedor*/
+.card-property.highlight{ border: 3px solid #1976d2; }
+.card-property.highlight:hover, .card-property.highlight:focus, .card-property.highlight:active{ webkit-box-shadow: 0 0 10px #999; box-shadow: 0 0 10px #999; }
+/* estilos del texto de tipo de contrato */
+.card-property.highlight .image-property .text-image-property{ background: rgba(147,206,222,0.29); background: -moz-linear-gradient(left, rgba(147,206,222,0.29) 0%, rgba(117,189,209,0.58) 41%, rgba(40,130,214,1) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, rgba(147,206,222,0.29)), color-stop(41%, rgba(117,189,209,0.58)), color-stop(100%, rgba(40,130,214,1))); background: -webkit-linear-gradient(left, rgba(147,206,222,0.29) 0%, rgba(117,189,209,0.58) 41%, rgba(40,130,214,1) 100%); background: -o-linear-gradient(left, rgba(147,206,222,0.29) 0%, rgba(117,189,209,0.58) 41%, rgba(40,130,214,1) 100%); background: -ms-linear-gradient(left, rgba(147,206,222,0.29) 0%, rgba(117,189,209,0.58) 41%, rgba(40,130,214,1) 100%); background: linear-gradient(to right, rgba(147,206,222,0.29) 0%, rgba(117,189,209,0.58) 41%, rgba(40,130,214,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#2882d6', GradientType=1 ); }
+/* estilos de la banda de destacado*/
+.card-property.highlight .image-property .highlight-image-property{ background-color: #fff; box-shadow: 1px 2px 3px #666; color: #1976d2; left: -10px; margin-left: -20px; padding: 7px; position: absolute; width: 30%; text-align: center; top: 15px; -moz-transform: skew(25deg, -35deg); -webkit-transform: skew(25deg, -35deg); -o-transform: skew(25deg, -35deg); -ms-transform: skew(25deg, -35deg); transform: skew(25deg, -35deg); }
+/* estilos para el icono de la banda de destacado*/
+.card-property.highlight .image-property .highlight-image-property i{ -webkit-animation-duration: 1.5s; -moz-animation-delay: 1s; -o-animation-iteration-count: infinite; }
+/* estilos del titulo del inmueble */
+.card-property.highlight .description-property strong{ color: #1976d2; }
+/* estilos del contenedor del precio de la tarjeta */
+.card-property.highlight .footer-property .col-7{ color: #666; }
+/* estilos de las caracteristicas del inmueble*/
+.card-property.highlight .description-property .features-property, .card-property.highlight .footer-property .col-5 a{ color: #333; }
+
+/* tamaño tableta (md) */
+@media( min-width: 768px)
+{
+	/* estilos de las caracteristicas del inmueble*/
+	.card-property .description-property .features-property{ font-size: 14px; }
+	/* estilos de la banda de destacado*/
+	.card-property.highlight .image-property .highlight-image-property{ left: -10px; margin-left: -20px; padding: 7px; width: 50%; }
+}

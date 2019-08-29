@@ -1,0 +1,53 @@
+/* importamos los estilos de la cabecera */
+@import './header.css';
+/* estilos del body */
+body{ background-color: #ECF5FB; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important; }
+/* estilos del footer*/
+footer{ max-height: 110px; overflow: hidden;}
+/* estilos del contenedor principal */
+main{ min-height: calc(100vh - 110px); padding-top: 70px; }
+/* estilos del contenedor secundario para el contenido de la pagina */
+main .container-main{ min-height: calc(100vh - 180px); }
+/* estilos para cuando se desea cargar una foto */
+.modal-content-crop{ background: rgba(0, 0, 0, 0.5); display: none; left: 0; height: 100vh; position: fixed; top: 0; width: 100%; z-index: 9999; }
+.classic-tabs{ border-top: 1px solid #8181C5; }
+/* estilos para las tabs */
+.classic-tabs .nav{ border-radius: 0; overflow-y: hidden; }
+/* estilos para el primer item las tabs */
+.classic-tabs .nav li:first-child { margin-left: 0px; }
+/* estilos para los links de las tabs */
+.classic-tabs .nav li a{ height: 100%; }
+/* estilos para los links de las tabs cuando esten activas */
+.classic-tabs .nav li a.active { border:  none; background: #ECF5FB; color: #000; }
+/* eliminamos las sombras de las cards */
+.card{ box-shadow: none !important; }
+
+.card.border-top-primary{ border: none; border-top: 5px solid #4285f4 !important; }
+.card.border-top-success{ border: none; border-top: 5px solid #00c851 !important; }
+.card.border-top-warning{ border: none; border-top: 5px solid #fb3 !important; }
+.card.border-top-danger{ border: none; border-top: 5px solid #ff3547 !important; }
+
+/* contenedor de una imagen para ser actualizada */
+.contenedor-picture{ cursor: pointer; transition-duration: .7s; }
+/* esitlos para el contenedor del hover de la imagen para ser actualizada */
+.image-cap{ background-repeat: no-repeat; background-size: 100% 100%; border-radius: 50%; cursor: pointer; display: none; left: 50%; height: 120px; margin-bottom: 0; position: absolute; top: 0; transform: translateX(-50%); opacity: 1; width: 120px; }
+.image-cap.not-radius{ border-radius: 0%; height: 150px; width: 150px; }
+/* esitlos para el contenedor del hover de la imagen para ser actualizada cuando se haga hover */
+.contenedor-picture:hover > .image-cap{ display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; transition-duration: .7s; }
+
+input, select, textarea{ min-height: 50px; padding: 10px !important; }
+.form-search input, .form-search select, .form-search textarea{ min-height: auto; padding: auto !important; }
+
+
+@media( min-width: 578px )
+{
+	/* estilos del contenedor principal */
+	main, .container-main{ min-height: calc(100vh - 73px); }
+}
+
+@media( min-width: 768px )
+{
+	/* estilos del contenedor principal */
+	main, .container-main{ min-height: calc(100vh - 57px); }
+
+}

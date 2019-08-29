@@ -1,0 +1,8 @@
+body{ background-color: #ECF5FB; }
+
+/* estilos para tener el 100vh de la pantalla */
+.h-100{ min-height: 100vh; }
+/* estilos para la imagen del logo */
+.logo-login{ max-width: 170px; }
+
+input{ padding: auto 20px !important; height: 55px !important; }

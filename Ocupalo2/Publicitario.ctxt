@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Publicitario
+comment0.text=\r\n\ Se\ declaran\ las\ funciones\ basicas\ que\ el\ publicitario\ va\ a\ poder\r\n\ hacer\ en\ la\ apliacion.\r\n\ \r\n\ @author\ (Edmonbkack&&Cali)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=nombre\ contrase\u00F1a\ correo\ telefono\ genero
+comment1.target=Publicitario(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Usuarios\ donde\ se\ inicializan\ \r\n\ las\ variables\ propias\ y\ las\ heredas\r\n
+comment2.params=p
+comment2.target=void\ publicarPublicitario(Publicidad)
+comment2.text=\r\n\ Esta\ funcion\ le\ permite\ a\ un\ publicitario\ hacer\ una\ publicacion\r\n
+comment3.params=p
+comment3.target=void\ consultarPublicitario(Publicidad)
+comment4.params=plan
+comment4.target=java.lang.String\ contratarPlan(int)
+comment4.text=\r\n\ Esta\ funcion\ esta\ bien\ escrita\r\n
+comment5.params=
+comment5.target=java.lang.String\ plan()
+comment5.text=\r\n\ Esta\ funcion\ me\ retorna\ cual\ fue\ el\ plan\ q\ contrato\ el\ publicitario\r\n
+comment6.params=
+comment6.target=java.lang.String\ cancelarPlan()
+comment6.text=\r\n\ Esta\ funcion\ me\ coloca\ la\ varible\ de\ control\ en\ false\ para\ que\ el\ publicitario\ no\ pueda\ ejecutar\ publicaciones\r\n
+comment7.params=anuncio
+comment7.target=java.lang.String\ eliminarPublicacion(Publicidad)
+comment7.text=\r\nEsta\ funcion\ me\ eilimina\ una\ publicacion\ existente\r\n
+numComments=8

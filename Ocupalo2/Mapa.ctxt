@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Mapa
+comment0.text=\r\n\ en\ la\ clase\ mapa\ lo\ que\ se\ implementar\u00E1,\ ser\u00E1,\ las\ funciones\ matemaricas\ para\r\n\ por\ medio\ del\ radio\ encerrarme\ un\ circulo\ al\ rededor\ y\ as\u00ED\ encerrarme\ los\ cupo\ dentro\ \r\n\ de\ \u00E9l,\ ademas\ hay\ filtro\ tales\ como\ el\ barrio\ y\ la\ direccion\ .\r\n\ \r\n\ @author\ (Edmonblack&&Cali)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=direccion\ barrio\ radio
+comment1.target=Mapa(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Mapa\r\n
+comment2.params=a
+comment2.target=java.util.ArrayList\ buscarResidencias(Arrendador)
+comment2.text=\r\n\ me\ busca\ todas\ los\ inmuebles\ de\ un\ arrendador\ \r\n
+comment3.params=g
+comment3.target=void\ paint(java.awt.Graphics)
+comment3.text=\r\nme\ genera\ el\ circulo\ con\ un\ radio\r\n
+numComments=4

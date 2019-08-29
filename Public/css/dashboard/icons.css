@@ -1,0 +1,23 @@
+/* estilos para los vinculos de la cabecera */
+.header-navbar .icon-header, .header-navbar .icon-header > a{ color: #f4f4f4; display: block; line-height: 70px; height: 70px; position: relative; text-align: center; -webkit-transition: .5s; -moz-transition: .5s; -o-transition: .5s; transition: .5s; width: 60px; }
+/* estilos para los vinculos cuando les hagan clic, hover o focus de la cabecera */
+.header-navbar .icon-header:hover, .header-navbar .icon-header:focus, .header-navbar .icon-header:active, .header-navbar .icon-header:hover > a, .header-navbar .icon-header:focus > a, .header-navbar .icon-header:active > a{ background-color: #093D8D; color: #fff; }
+/* estilos para el contenedor del icono de la cabecera */
+.header-navbar .icon-header p, .header-navbar .icon-header.icon-bars, .header-navbar .icon-header.icon-search{ cursor: pointer; margin-bottom: 0; }
+/* estilso para el icono del usuario */
+.header-navbar .icon-header.icon-user img{ background: #e5e5e5; border-radius: 50%; height: 25px; width: 25px; }
+/* estilos del segundo contenedor de iconos */
+.header-navbar .header-navbar-second{ justify-content: flex-end; height: 70px; }
+/* estilos para badges de los vinculos del segundo contenedor */
+.header-navbar .header-navbar-second .icon-header p .badges{ background-color: #E06A1B; border-radius: 50%; visibility: hidden; height: 7px !important; position: absolute; top: 35%; transform: translate(-90%,-35%); width: 7px !important; }
+/* estilos para badges cuando tengan datos por ver de los vinculos del segundo contenedor */
+.header-navbar .header-navbar-second .icon-header p .badges.active{ visibility: visible; }
+
+
+@media( min-width: 999px )
+{
+	/* estilos para la barra de menu */
+	.header-navbar .icon-header.icon-bars{ display: none; }
+	/* estilos del segundo contenedor de iconos */
+	.header-navbar .header-navbar-second{ background: transparent; display: -webkit-flex !important; display: -moz-flex !important; display: -ms-flex !important; display: -o-flex !important; display: flex !important; }
+}

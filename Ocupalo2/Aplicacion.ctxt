@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Aplicacion
+comment0.text=\r\n\ Clase\ principal,\ aqui\ se\ ejecuta\ los\ procesos\ y\ la\ aplicacion\ como\ tal.\r\n\ \r\n\ @author\ (Edgar\ Montenegro,\ Alejandro\ Ramirez)\ \r\n\ @version\ (24/7/2019)\r\n
+comment1.params=
+comment1.target=void\ app()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Aplicacion\r\n
+comment2.params=arg
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+numComments=3
